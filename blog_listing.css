@@ -1,0 +1,66 @@
+#product-section {
+  display: flex;
+  align-items: center;
+  height: 846px;
+  justify-content: space-between;
+  padding: 48px 46px 123px 105px;
+}
+
+#left-product-text {
+  margin-right: 129px;
+  width: 100%;
+}
+
+#latest-in-blog {
+  color: #c4c4c4;
+}
+
+#future-plans {
+  margin: 25px 0;
+}
+
+#description-paragraph {
+  line-height: 28px;
+}
+
+#read-more-link {
+  background-color: #000;
+  color: #fff;
+  border-radius: 34px;
+  padding: 20px 30px;
+  margin-top: 25px;
+  display: inline-block;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+#container > * {
+  width: 23%;
+}
+
+.coffee img {
+  width: 280px;
+  height: 280px;
+}
+.coffee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.coffee a {
+  margin-top: 10px;
+  display: block;
+  width: 280px;
+}
+#last-words {
+  padding: 20px;
+  font-size: 14px;
+  bottom: 21px;
+  left: 46px;
+  padding-top: 155px;
+}
